@@ -100,7 +100,7 @@ export default function MobileApp() {
   };
   return (
     <>
-      <div className="shopButton">
+      <div className="shopButtonMobile">
         <a
           onClick={() => {
             document
