@@ -1,0 +1,181 @@
+.wrapperMobile {
+    padding: 10px 100px;
+  }
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+  .wrapperMobile .sidebarMobile {
+    background: black;
+    position: fixed;
+    z-index: 80;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 10px 0;
+    transition: all 0.5s ease;
+    display: table;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .wrapperMobile .sidebarMobile h3 {
+    display: table-cell;
+    color: white;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .wrapperMobile .sidebarMobile li {
+    display: table-cell;
+    color: white;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    width: 20%;
+  }
+  .wrapperMobile .sidebarMobile a:hover {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  .wrapperMobile .sidebarMobile img {
+    display: table-cell;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    /* margin: 0 auto; */
+  }
+  .loadingWavesMobile {
+    width: 70%;
+    margin: auto;
+    margin-top: 300px;
+  }
+  .page-wrap-mobile {
+    position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    padding: 0px 10%;
+    margin: 0 auto;
+  }
+  @font-face {
+    font-family: heavyMetal;
+    src: url(../images/fonts/Faceless-K7wel.ttf);
+  }
+  .page-wrap-mobile h1 {
+    font-family: heavyMetal;
+    text-align: center;
+    color: white;
+  }
+  .page2Mobile h1 {
+    width: 50%;
+  }
+  .homepageMobile {
+    margin: 0 auto;
+  }
+  .homepageMobile img {
+    width: 70%;
+    margin: 0px 0px 200px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .logoTableMobile {
+    margin: 0 auto;
+    display: table;
+  }
+  .logoTableMobile img {
+    display: inline-block;
+    height: 100px;
+  }
+  .logoTable img {
+    display: inline-block;
+    height: 200px;
+  }
+  .aboutPhotosMobile {
+    text-align: center;
+  }
+  .aboutPhotosMobile img {
+    display: inline-block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 5px 5px 5px;
+  }
+  .aboutText {
+    margin: 0; 
+  }
+  .aboutText img {
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+  }
+  .paraAboutMobile {
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+  }
+  .cpmasPhotoMobile {
+    margin: 0 auto;
+    display: table;
+  }
+  .cpmasPhotoMobile img {
+    vertical-align: middle;
+    height: 100px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border: none;
+  }
+  .bottomLogosMobile img {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .bottomLogos img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .linksRow1 {
+    display:table;
+    margin: 0 auto;
+  }
+  .linksRow2 {
+    display:table;
+    margin: 0 auto;
+    padding-bottom: 0px;
+  }
+  .linksMobile img {
+    height: 100px;
+    display: inline-block;
+    padding-right: 10px;
+  }
+  .linksMobile h2 {
+    color: white;
+    display:table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
