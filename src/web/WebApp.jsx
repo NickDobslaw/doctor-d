@@ -46,7 +46,6 @@ function FadeInSection(props) {
 }
 
 export default function WebApp() {
-  const [showIg, setShowIg] = useState(false);
   const [size, setSize] = useState("Select size");
 
   const handleChange = (e) => {

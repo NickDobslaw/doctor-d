@@ -22,6 +22,9 @@ import fb from "../images/logos/fb.png";
 import ig from "../images/logos/ig.png";
 import cpmas from "../images/logos/cpmas.png";
 import drdTrans from "../images/logos/drd-trans.png";
+import hoodie from "../images/hoodie.png";
+import togfather from "../images/logos/togfather.png";
+import paypal from "../images/logos/paypal.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
   faCameraRetro,
@@ -29,6 +32,7 @@ import {
   faAddressCard,
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
+import {faShoppingCart} from "@fortawesome/free-solid-svg-icons";
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
@@ -50,8 +54,64 @@ function FadeInSection(props) {
 }
 
 export default function MobileApp() {
+  const [size, setSize] = useState("Select size");
+  const handleChange = (e) => {
+    setSize(e.target.value);
+    document.getElementById("sizeError").style.visibility = "hidden";
+  };
+  const buyHoodie = () => {
+    switch (size) {
+      case "Select size":
+        document.getElementById("sizeError").style.visibility = "visible";
+        break;
+      case "S":
+        window.open(
+          "https://www.paypal.com/webapps/hermes?token=74665285XC824211J",
+          "_blank"
+        );
+        break;
+      case "M":
+        window.open(
+          "https://www.paypal.com/webapps/hermes?token=0SC57422KL720550U",
+          "_blank"
+        );
+        break;
+      case "L":
+        window.open(
+          "https://www.paypal.com/webapps/hermes?token=19W40266UN9283944",
+          "_blank"
+        );
+        break;
+      case "XL":
+        window.open(
+          "https://www.paypal.com/webapps/hermes?token=6RX22522S4771321W",
+          "_blank"
+        );
+        break;
+      case "2XL":
+        window.open(
+          "https://www.paypal.com/webapps/hermes?token=9MD566045A6701105",
+          "_blank"
+        );
+        break;
+      default:
+        break;
+    }
+  };
   return (
     <>
+      <div className="shopButton">
+        <a
+          onClick={() => {
+            document
+              .getElementById("shop")
+              .scrollIntoView({behavior: "smooth"});
+          }}
+          class="active"
+        >
+          <FontAwesomeIcon size="2xl" color="white" icon={faShoppingCart} />
+        </a>
+      </div>
       <div className="wrapperMobile">
         <div className="sidebarMobile">
           <li>
@@ -219,6 +279,53 @@ export default function MobileApp() {
             <br />
           </FadeInSection>
         </div>
+        <div className="shopPage" id="shop">
+          <FadeInSection key="shopFade">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1>SHOP</h1>
+            <br />
+            <img className="hoodiePhotoMobile" src={hoodie} />
+            <br />
+            <br />
+            <select
+              style={{
+                margin: "0 auto",
+                display: "block",
+                width: "130px",
+                height: "30px",
+                fontSize: "18px",
+              }}
+              value={size}
+              onChange={handleChange}
+            >
+              <option value="Select size" disabled>
+                Select size
+              </option>
+              <option value="S">Small</option>
+              <option value="M">Medium</option>
+              <option value="L">Large</option>
+              <option value="XL">XL</option>
+              <option value="2XL">2XL</option>
+            </select>
+            <br />
+            <button className="buyButton" onClick={buyHoodie}>
+              <img src={paypal} />
+              Buy Now
+            </button>
+            <div id="sizeError" style={{visibility: "hidden"}}>
+              <h3 style={{color: "red"}}>Please select a size</h3>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+          </FadeInSection>
+        </div>
         <div id="page2Mobile">
           <FadeInSection key="page2Fade">
             <br />
@@ -363,6 +470,13 @@ export default function MobileApp() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+          </FadeInSection>
+        </div>
+        <div className="togfatherLogo" id="page5">
+          <FadeInSection key="page5Fade">
+            <img src={togfather} />
             <br />
             <br />
             <br />

@@ -71,6 +71,9 @@
     padding: 0px 10%;
     margin: 0 auto;
   }
+  .hoodiePhotoMobile {
+    width: 100%;
+  }
   @font-face {
     font-family: heavyMetal;
     src: url(../images/fonts/Faceless-K7wel.ttf);
