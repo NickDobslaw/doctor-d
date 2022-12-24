@@ -186,6 +186,9 @@ export default function WebApp() {
               <br />
               <br />
               <img src={drdTrans} />
+              <br />
+              <br />
+              <br />
             </FadeInSection>
           </div>
           <div className="content">
@@ -432,6 +435,9 @@ export default function WebApp() {
                       <span style={{color: "white"}}>Open in Instagram</span>
                     </div>
                   </Tooltip> */}
+                <br />
+                <br />
+                <br />
               </FadeInSection>
             </div>
             <div className="shopPage" id="shop">
@@ -475,6 +481,9 @@ export default function WebApp() {
                 <div id="sizeError" style={{visibility: "hidden"}}>
                   <h3 style={{color: "red"}}>Please select a size</h3>
                 </div>
+                <br />
+                <br />
+                <br />
               </FadeInSection>
             </div>
             <div id="page2">
@@ -538,6 +547,9 @@ export default function WebApp() {
                     </a>
                   </div>
                 </div>
+                <br />
+                <br />
+                <br />
               </FadeInSection>
             </div>
             <div className="aboutPage" id="page3">
@@ -594,6 +606,9 @@ export default function WebApp() {
                 </div>
 
                 <div className="cpmasPhoto"></div>
+                <br />
+                <br />
+                <br />
               </FadeInSection>
             </div>
             <div className="links" id="page4">
@@ -628,6 +643,8 @@ export default function WebApp() {
                     <h2>Doctor D Photography</h2>
                   </div>
                 </a>
+                <br />
+                <br />
                 <br />
                 <br />
                 <br />
