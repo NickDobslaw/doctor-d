@@ -638,11 +638,23 @@ export default function WebApp() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="linksRow2">
+                  <div className="linksRow1">
                     <img src={fb} />
                     <h2>Doctor D Photography</h2>
                   </div>
                 </a>
+                <br />
+                <a
+                  href="https://www.instagram.com/thetogfatherofficial/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="linksRow2">
+                    <img src={ig} />
+                    <h2>@thetogfatherofficial</h2>
+                  </div>
+                </a>
+                <br />
                 <br />
                 <br />
                 <br />
