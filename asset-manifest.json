@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/doctor-d/static/css/main.669add4b.css",
-    "main.js": "/doctor-d/static/js/main.ce3403cb.js",
+    "main.css": "/doctor-d/static/css/main.9a2c9d30.css",
+    "main.js": "/doctor-d/static/js/main.af00b5a7.js",
     "static/js/787.a0823437.chunk.js": "/doctor-d/static/js/787.a0823437.chunk.js",
     "static/media/hoodie.png": "/doctor-d/static/media/hoodie.cec59dac095e4b93faf2.png",
     "static/media/background-trans3.png": "/doctor-d/static/media/background-trans3.a223eb2ddd9eb1bcd9b1.png",
@@ -28,12 +28,12 @@
     "static/media/church.png": "/doctor-d/static/media/church.f29ea70c37eb62f2c0f3.png",
     "static/media/ig.png": "/doctor-d/static/media/ig.459d14acdbfb7db227e0.png",
     "index.html": "/doctor-d/index.html",
-    "main.669add4b.css.map": "/doctor-d/static/css/main.669add4b.css.map",
-    "main.ce3403cb.js.map": "/doctor-d/static/js/main.ce3403cb.js.map",
+    "main.9a2c9d30.css.map": "/doctor-d/static/css/main.9a2c9d30.css.map",
+    "main.af00b5a7.js.map": "/doctor-d/static/js/main.af00b5a7.js.map",
     "787.a0823437.chunk.js.map": "/doctor-d/static/js/787.a0823437.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.669add4b.css",
-    "static/js/main.ce3403cb.js"
+    "static/css/main.9a2c9d30.css",
+    "static/js/main.af00b5a7.js"
   ]
 }
