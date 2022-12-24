@@ -492,7 +492,7 @@ export default function MobileApp() {
             >
               <div className="linksRow2">
                 <img src={ig} />
-                <h2>@doctordphotography</h2>
+                <h2>@thetogfatherofficial</h2>
               </div>
             </a>
             <br />
