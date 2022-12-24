@@ -100,18 +100,6 @@ export default function MobileApp() {
   };
   return (
     <>
-      <div className="shopButtonMobile">
-        <a
-          onClick={() => {
-            document
-              .getElementById("shop")
-              .scrollIntoView({behavior: "smooth"});
-          }}
-          class="active"
-        >
-          <FontAwesomeIcon size="2xl" color="white" icon={faShoppingCart} />
-        </a>
-      </div>
       <div className="wrapperMobile">
         <div className="sidebarMobile">
           <li>
@@ -203,6 +191,7 @@ export default function MobileApp() {
           </FadeInSection>
         </div>
         <div id="page1">
+          <br />
           <FadeInSection key="page1Fade">
             <br />
             <br />
@@ -280,7 +269,9 @@ export default function MobileApp() {
           </FadeInSection>
         </div>
         <div className="shopPage" id="shop">
+          <br />
           <FadeInSection key="shopFade">
+            <br />
             <br />
             <br />
             <br />
@@ -324,9 +315,13 @@ export default function MobileApp() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
           </FadeInSection>
         </div>
         <div id="page2Mobile">
+          <br />
           <FadeInSection key="page2Fade">
             <br />
             <br />
@@ -339,18 +334,34 @@ export default function MobileApp() {
             <br />
             <div className="logoTableMobile">
               <div style={{display: "table", margin: "0 auto"}}>
-                <a href="https://dannywimmerpresents.com/">
+                <a
+                  href="https://dannywimmerpresents.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={dwp}></img>
                 </a>
-                <a href="https://www.blackcraftcult.com/">
+                <a
+                  href="https://www.blackcraftcult.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={blackcraft}></img>
                 </a>
               </div>
               <div style={{display: "table", margin: "0 auto"}}>
-                <a href="https://www.thestrangeandunusual.com/">
+                <a
+                  href="https://www.thestrangeandunusual.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={tsau}></img>
                 </a>
-                <a href="https://www.nailbiteofficial.com/">
+                <a
+                  href="https://www.nailbiteofficial.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={nb}></img>
                 </a>
               </div>
@@ -358,10 +369,18 @@ export default function MobileApp() {
                 className="bottomLogosMobile"
                 style={{display: "table", margin: "0 auto"}}
               >
-                <a href="https://www.facebook.com/scsthechurch/">
+                <a
+                  href="https://www.facebook.com/scsthechurch/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={church}></img>
                 </a>
-                <a href="https://www.facebook.com/hatemachinePA/">
+                <a
+                  href="https://www.facebook.com/hatemachinePA/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={hm}></img>
                 </a>
               </div>
@@ -377,6 +396,7 @@ export default function MobileApp() {
           </FadeInSection>
         </div>
         <div className="aboutPage" id="page3">
+          <br />
           <FadeInSection key="page3Fade">
             <br />
             <br />
@@ -431,6 +451,7 @@ export default function MobileApp() {
           </FadeInSection>
         </div>
         <div className="linksMobile" id="page4">
+          <br />
           <FadeInSection key="page4Fade">
             <br />
             <br />
@@ -491,6 +512,18 @@ export default function MobileApp() {
             <br />
           </FadeInSection>
         </div>
+      </div>
+      <div className="shopButtonMobile">
+        <a
+          onClick={() => {
+            document
+              .getElementById("shop")
+              .scrollIntoView({behavior: "smooth"});
+          }}
+          class="active"
+        >
+          <FontAwesomeIcon size="2xl" color="white" icon={faShoppingCart} />
+        </a>
       </div>
     </>
   );
