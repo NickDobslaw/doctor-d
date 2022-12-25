@@ -60,31 +60,31 @@ export default function WebApp() {
         break;
       case "S":
         window.open(
-          "https://www.paypal.com/webapps/hermes?token=74665285XC824211J",
+          "https://www.paypal.com/webapps/hermes?token=7NE13846AK4278429",
           "_blank"
         );
         break;
       case "M":
         window.open(
-          "https://www.paypal.com/webapps/hermes?token=0SC57422KL720550U",
+          "https://www.paypal.com/webapps/hermes?token=9UE50790S4429920W",
           "_blank"
         );
         break;
       case "L":
         window.open(
-          "https://www.paypal.com/webapps/hermes?token=19W40266UN9283944",
+          "https://www.paypal.com/webapps/hermes?token=1VG56053YV747564F",
           "_blank"
         );
         break;
       case "XL":
         window.open(
-          "https://www.paypal.com/webapps/hermes?token=6RX22522S4771321W",
+          "https://www.paypal.com/webapps/hermes?token=9N366274PN245191M",
           "_blank"
         );
         break;
       case "2XL":
         window.open(
-          "https://www.paypal.com/webapps/hermes?token=9MD566045A6701105",
+          "https://www.paypal.com/webapps/hermes?token=4046550393351674E",
           "_blank"
         );
         break;
